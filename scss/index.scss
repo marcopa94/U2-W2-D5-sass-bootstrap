@@ -1,0 +1,73 @@
+@import "./bootstrapoveride";
+
+.container-fluid {
+  width: 100%;
+
+  background-color: #7550fe;
+}
+#box2 {
+  flex-direction: row-reverse;
+}
+#box1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 150px;
+}
+#box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.conteiner {
+  margin-bottom: 1px solid black;
+}
+.card {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  padding-bottom: 60px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.container {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.btn {
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.btn:nth-of-type(2) {
+  color: black;
+}
+h1 {
+  color: white;
+}
+h2 {
+  font-size: 20px;
+}
+#box {
+  width: 414px;
+}
+#box p {
+  font-style: italic;
+  margin-left: 35px;
+}
+svg {
+  margin-right: 15px;
+}
+section {
+  background-color: rgba(221, 221, 221, 0.525);
+}
+.title {
+  color: black;
+}
+/* h1 ~ p {
+  color: $violetto;
+} */
